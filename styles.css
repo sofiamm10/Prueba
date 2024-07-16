@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+#content {
+    text-align: center;
+}
+
+.question {
+    display: none;
+}
+
+.response {
+    display: none;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#question1 {
+    display: block;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}

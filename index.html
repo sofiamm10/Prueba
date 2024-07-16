@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <div id="question1" class="question">
+            <p>Hola Alejandro, tengo algo importante que decirte, ¿te interesa?</p>
+            <button onclick="handleResponse('q1', 'yes')">Sí</button>
+            <button onclick="handleResponse('q1', 'no')">No</button>
+        </div>
+        <div id="question2" class="question">
+            <p>¿Te gustaría ser mi novio?</p>
+            <button onclick="handleResponse('q2', 'yes')">Sí</button>
+            <button onclick="handleResponse('q2', 'no')">No</button>
+        </div>
+        <div id="response" class="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
